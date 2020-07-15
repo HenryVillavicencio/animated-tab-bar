@@ -1,8 +1,12 @@
-# App CustomTabs
+# Animated Tab Bar
 
 ---
 
 Personalización de TabNavigator desarrollado con Expo, React Native y React Navigation
+
+---
+
+<div align="center"> <img src="animated-tab-bar.gif" width="500px"/> </div>
 
 ## ¿Cómo funciona?
 

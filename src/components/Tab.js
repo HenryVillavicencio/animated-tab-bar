@@ -70,27 +70,27 @@ export default props => {
     Animated.parallel([
       Animated.timing(animatedItemValues, {
         toValue: -30,
-        duration: 5000,
-        delay: 3000,
+        duration: 500,
+        delay: 300,
         easing: Easing.in(Easing.elastic(1.5)),
         useNativeDriver: true
       }),
       Animated.timing(animatedBubbleValues, {
         toValue: 1,
-        duration: 8000,
+        duration: 800,
         easing: Easing.inOut(Easing.out(Easing.ease)),
         useNativeDriver: true
       }),
       Animated.timing(animatedMiniBubbleValues, {
         toValue: 1,
-        duration: 10000,
-        delay: 3000,
+        duration: 1000,
+        delay: 300,
         useNativeDriver: true
       }),
 
       Animated.timing(animatedIconValues, {
         toValue: 1,
-        duration: 8000
+        duration: 800
       })
     ]).start();
   };
@@ -99,25 +99,25 @@ export default props => {
     Animated.parallel([
       Animated.timing(animatedItemValues, {
         toValue: 0,
-        duration: 4000,
-        delay: 3500,
+        duration: 400,
+        delay: 350,
         useNativeDriver: true
       }),
       Animated.timing(animatedBubbleValues, {
         toValue: 0,
-        duration: 7500,
+        duration: 750,
         easing: Easing.out(Easing.ease),
         useNativeDriver: true
       }),
       Animated.timing(animatedMiniBubbleValues, {
         toValue: 0,
-        duration: 1000,
+        duration: 100,
         useNativeDriver: true
       }),
       Animated.timing(animatedIconValues, {
         toValue: 0,
-        duration: 4000,
-        delay: 3500
+        duration: 400,
+        delay: 350
       })
     ]).start();
   };
