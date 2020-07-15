@@ -2,11 +2,13 @@
 
 ---
 
-Personalización de TabNavigator desarrollado con Expo, React Native y React Navigation
+Personalización de TabNavigator desarrollado con Expo, React Native y React Navigation.
 
+[Video tutorial](https://youtu.be/pYhU_8Jinfo)
 ---
 
 <div align="center"> <img src="animated-tab-bar.gif" width="250px"/> </div>
+
 
 ## ¿Cómo funciona?
 
