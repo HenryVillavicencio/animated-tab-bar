@@ -6,7 +6,7 @@ Personalización de TabNavigator desarrollado con Expo, React Native y React Nav
 
 ---
 
-<div align="center"> <img src="animated-tab-bar.gif" width="500px"/> </div>
+<div align="center"> <img src="animated-tab-bar.gif" width="250px"/> </div>
 
 ## ¿Cómo funciona?
 
